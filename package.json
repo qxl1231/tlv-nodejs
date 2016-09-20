@@ -10,6 +10,10 @@
     "node": "0.12.4",
     "npm": "2.10.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qxl1231/tlv-nodejs.git"
+  },
   "keywords": [
     "tlv",
     "node",
