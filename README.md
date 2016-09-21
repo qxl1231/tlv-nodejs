@@ -21,7 +21,7 @@ var command = {
   ca_pwd: '1g.MimA'
 };
 
-var hex = tlv.commandHelper.buf2string(tlv.json2hex4tlv(command, tlvspec.commandSpec, '0xDB')).toLowerCase();
+var hex = tlv.buf2string(tlv.json2hex4tlv(command, tlvspec.commandSpec, '0xDB')).toLowerCase();
 console.log(hex);
 var json= tlv.hex2json4tlv(reportData, tlvspec.statusSpec('04CA'));
 console.log(json);

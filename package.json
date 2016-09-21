@@ -1,6 +1,6 @@
 {
   "name": "tlv-nodejs",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "tlv for nodejs",
   "main": "tlv.js",
   "scripts": {
