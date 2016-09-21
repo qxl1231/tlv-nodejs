@@ -1,0 +1,8 @@
+
+machine:
+  node:
+    version: 5
+
+test:
+  override:
+    - node test
